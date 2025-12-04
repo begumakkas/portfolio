@@ -16,7 +16,7 @@ pagination.pagerSize     = 10
     customCSS = ["/css/custom.css"]
 
   # Subtitle for home
-  homeSubtitle = "Test"
+  # homeSubtitle = "Test"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
