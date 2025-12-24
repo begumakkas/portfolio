@@ -108,7 +108,6 @@ title = "Projects"
   <span class="tech"><i class="devicon-html5-plain colored"></i><span>HTML</span></span>
   <span class="tech"><i class="devicon-css3-plain colored"></i><span>CSS</span></span>
   <span class="tech"><i class="devicon-r-plain colored"></i><span>R</span></span>
-
   <span class="tech"><i class="devicon-git-plain colored"></i><span>Git</span></span>
   <span class="tech"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></span>
 </div>
