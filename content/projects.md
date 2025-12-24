@@ -8,7 +8,16 @@ title = "Projects"
   <!-- Project 1 – image left, text right -->
   <article class="project-row">
     <div class="project-image">
-      <img src="/images/greenSpace.png" alt="Screenshot of Project 1">
+        <div class="flip-card" tabindex="0">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="/images/grantPark.jpeg" alt="Green Space Accessibility (front)">
+            </div>
+            <div class="flip-card-back">
+                <img src="/images/greenSpaceCrop.png" alt="Green Space Accessibility (back)">
+            </div>
+            </div>
+        </div>
     </div>
     <div class="project-content">
       <p class="project-label">Dashboard</p>
@@ -28,11 +37,23 @@ title = "Projects"
 
   <!-- Project 2 – image right, text left -->
   <article class="project-row project-row--reverse">
-    <div class="project-image">
+    <!-- <div class="project-image">
       <img src="/images/songs.png" alt="Screenshot of Project 2">
+    </div> -->
+    <div class="project-image">
+        <div class="flip-card" tabindex="0">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="/images/billboardCover.png" alt="Green Space Accessibility (front)">
+            </div>
+            <div class="flip-card-back">
+                <img src="/images/raceTime.png" alt="Green Space Accessibility (back)">
+            </div>
+            </div>
+        </div>
     </div>
     <div class="project-content">
-      <p class="project-label">Data Visualization</p>
+      <p class="project-label">Interactive Visualization</p>
       <h3 class="project-title">
         <a href="https://charting-bars.pages.dev/" target="_blank">
         Hottest U.S. Songs
@@ -44,9 +65,28 @@ title = "Projects"
         <li>The visualization reveals some disparities in the music industry. 
         For example, women are much more often singers but less often songwriters.</li>
       </ul>
-      <p class="project-tech">Python · D3 · JS · HTML</p>
+      <p class="project-tech">Python · D3 · JS · HTML · Cloudflare</p>
     </div>
   </article>
 
-  <!-- Add more projects; alternate by toggling project-row--reverse -->
+  <!-- Project 3 – image left, text right -->
+  <article class="project-row">
+    <div class="project-image">
+      <img src="/images/fraym-2022-logo-with-name.png" alt="Screenshot of Project 1">
+    </div>
+    <div class="project-content">
+      <p class="project-label">Dashboard</p>
+      <h3 class="project-title">
+            <a>
+            Fraym's Model Performance
+            </a>
+        </h3>
+      <ul class="project-description">
+        <li>This dashboard provides high-level analytics on Fraym model performance, including model/feature frequency and comparisons of RMSE and training time across jobs and models. It runs on a customizable sample of Fraym-produced layers.</li>
+        <li>The dashboard was built as a first step toward broader transparency into model performance.</li>
+      </ul>
+      <p class="project-tech">Python · Streamlit · AWS S3 · DBeaver</p>
+    </div>
+  </article>
+
 </section>

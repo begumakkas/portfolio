@@ -8,7 +8,7 @@
 .project-row {
   display: flex;
   gap: 2.5rem;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .project-row--reverse {
@@ -55,8 +55,63 @@
   opacity: 0.8;
 }
 
+/* Flip card (horizontal flip on hover) */
+.flip-card {
+  width: 100%;
+  max-width: 420px;
+  height: 280px; 
+  perspective: 1200px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.9s ease;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner,
+.flip-card:focus-within .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  border-radius: 14px;   /* match your screenshot’s rounding */
+  overflow: hidden;
+}
+
+.flip-card-front img,
+.flip-card-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Give the image column a real width */
+.project-image {
+  flex: 0 0 420px;
+  max-width: 420px;
+}
+
+/* Ensure the flip card has a concrete width */
+.flip-card {
+  width: 420px;
+  max-width: 100%;
+}
+
 /* Mobile: stack vertically */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .project-row,
   .project-row--reverse {
     flex-direction: column;
@@ -65,4 +120,4 @@
   .project-image img {
     max-width: 100%;
   }
-}
+} */

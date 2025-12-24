@@ -8,9 +8,9 @@
 <meta name="author" content="">
 <meta name="description" content=" Dashboard
 Green Space Accessibility in Chicago This project analyzes disparities in access to high-quality public parks near affordable housing buildings in Chicago. As part of this group project, my main role was synthesizing the different data sources and building our accessibility index. Python · GeoPandas
-Data Visualization
+Interactive Visualization
 " />
-<meta name="keywords" content="homepage, blog" />
+<meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
 <link rel="canonical" href="//localhost:1313/projects/" />
@@ -18,7 +18,7 @@ Data Visualization
 
     <title>
         
-            Projects :: Begum Akkas  — A simple theme for Hugo
+            Projects :: Begum Akkas 
         
     </title>
 
@@ -49,28 +49,15 @@ Data Visualization
   <meta itemprop="name" content="Projects">
   <meta itemprop="description" content="Dashboard
 Green Space Accessibility in Chicago This project analyzes disparities in access to high-quality public parks near affordable housing buildings in Chicago. As part of this group project, my main role was synthesizing the different data sources and building our accessibility index. Python · GeoPandas
-Data Visualization">
-  <meta itemprop="wordCount" content="91">
-  <meta itemprop="image" content="//localhost:1313/">
+Interactive Visualization">
+  <meta itemprop="wordCount" content="151">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="//localhost:1313/">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Projects">
   <meta name="twitter:description" content="Dashboard
 Green Space Accessibility in Chicago This project analyzes disparities in access to high-quality public parks near affordable housing buildings in Chicago. As part of this group project, my main role was synthesizing the different data sources and building our accessibility index. Python · GeoPandas
-Data Visualization">
+Interactive Visualization">
 
-
-
-    <meta property="og:url" content="//localhost:1313/projects/">
-  <meta property="og:site_name" content="Begum Akkas">
-  <meta property="og:title" content="Projects">
-  <meta property="og:description" content="Dashboard
-Green Space Accessibility in Chicago This project analyzes disparities in access to high-quality public parks near affordable housing buildings in Chicago. As part of this group project, my main role was synthesizing the different data sources and building our accessibility index. Python · GeoPandas
-Data Visualization">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="og:image" content="//localhost:1313/">
 
 
 
@@ -118,15 +105,10 @@ Data Visualization">
     <ul class="menu__inner">
                 <li><a href="/about">About</a></li>
             
+                <li><a href="/contact">Contact</a></li>
+            
                 <li><a href="/projects">Projects</a></li>
             
-        <ul class="submenu">
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">en</a>
-                <div class="dropdown-content">
-                </div>
-            </li>
-        </ul>
     </ul>
 </nav>
 
@@ -163,7 +145,16 @@ Data Visualization">
   <!-- Project 1 – image left, text right -->
   <article class="project-row">
     <div class="project-image">
-      <img src="/images/greenSpace.png" alt="Screenshot of Project 1">
+        <div class="flip-card" tabindex="0">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="/images/grantPark.jpeg" alt="Green Space Accessibility (front)">
+            </div>
+            <div class="flip-card-back">
+                <img src="/images/greenSpaceCrop.png" alt="Green Space Accessibility (back)">
+            </div>
+            </div>
+        </div>
     </div>
     <div class="project-content">
       <p class="project-label">Dashboard</p>
@@ -182,11 +173,23 @@ Data Visualization">
   </article>
   <!-- Project 2 – image right, text left -->
   <article class="project-row project-row--reverse">
-    <div class="project-image">
+    <!-- <div class="project-image">
       <img src="/images/songs.png" alt="Screenshot of Project 2">
+    </div> -->
+    <div class="project-image">
+        <div class="flip-card" tabindex="0">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="/images/billboardCover.png" alt="Green Space Accessibility (front)">
+            </div>
+            <div class="flip-card-back">
+                <img src="/images/raceTime.png" alt="Green Space Accessibility (back)">
+            </div>
+            </div>
+        </div>
     </div>
     <div class="project-content">
-      <p class="project-label">Data Visualization</p>
+      <p class="project-label">Interactive Visualization</p>
       <h3 class="project-title">
         <a href="https://charting-bars.pages.dev/" target="_blank">
         Hottest U.S. Songs
@@ -198,10 +201,28 @@ Data Visualization">
         <li>The visualization reveals some disparities in the music industry. 
         For example, women are much more often singers but less often songwriters.</li>
       </ul>
-      <p class="project-tech">Python · D3 · JS · HTML</p>
+      <p class="project-tech">Python · D3 · JS · HTML · Cloudflare</p>
     </div>
   </article>
-  <!-- Add more projects; alternate by toggling project-row--reverse -->
+  <!-- Project 3 – image left, text right -->
+  <article class="project-row">
+    <div class="project-image">
+      <img src="/images/fraym-2022-logo-with-name.png" alt="Screenshot of Project 1">
+    </div>
+    <div class="project-content">
+      <p class="project-label">Dashboard</p>
+      <h3 class="project-title">
+            <a>
+            Fraym's Model Performance
+            </a>
+        </h3>
+      <ul class="project-description">
+        <li>This dashboard provides high-level analytics on Fraym model performance, including model/feature frequency and comparisons of RMSE and training time across jobs and models. It runs on a customizable sample of Fraym-produced layers.</li>
+        <li>The dashboard was built as a first step toward broader transparency into model performance.</li>
+      </ul>
+      <p class="project-tech">Python · Streamlit · AWS S3 · DBeaver</p>
+    </div>
+  </article>
 </section>
 
                 </div>
