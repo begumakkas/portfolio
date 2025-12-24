@@ -2,7 +2,7 @@
 title = "Contact"
 +++
 
-You can get in touch with me via:
+
 
 **Email:** bakkas@uchicago.edu
 
