@@ -5,7 +5,7 @@ theme        = "hello-friend-ng"
 
 
 [params]
-homeSubtitle = "Full-Stack Engineer & UChicago Graduate Student (MSCAPP)"
+homeSubtitle = "Policy Oriented Engineer & UChicago Graduate Student (MSCAPP)"
 
 # load custom css
 customCSS = ["/css/custom.css"]

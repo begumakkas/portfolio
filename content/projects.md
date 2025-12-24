@@ -96,3 +96,20 @@ title = "Projects"
   </article>
 
 </section>
+
+
+<h2>My current tech stack</h2>
+<br>
+<div class="techstack">
+  <span class="tech"><i class="devicon-python-plain colored"></i><span>Python</span></span>
+  <span class="tech"><i class="devicon-mysql-original colored"></i><span>MySQL</span></span>
+  <span class="tech"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></span>
+  <span class="tech"><i class="devicon-d3js-plain colored"></i><span>D3</span></span>
+  <span class="tech"><i class="devicon-html5-plain colored"></i><span>HTML</span></span>
+  <span class="tech"><i class="devicon-css3-plain colored"></i><span>CSS</span></span>
+  <span class="tech"><i class="devicon-r-plain colored"></i><span>R</span></span>
+
+  <span class="tech"><i class="devicon-git-plain colored"></i><span>Git</span></span>
+  <span class="tech"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></span>
+</div>
+
