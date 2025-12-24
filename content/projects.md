@@ -3,7 +3,7 @@ title = "Projects"
 +++
 
 
-<section class="projects-list">
+<section class="projects-list projects-wide">
 
   <!-- Project 1 – image left, text right -->
   <article class="project-row">
@@ -37,9 +37,6 @@ title = "Projects"
 
   <!-- Project 2 – image right, text left -->
   <article class="project-row project-row--reverse">
-    <!-- <div class="project-image">
-      <img src="/images/songs.png" alt="Screenshot of Project 2">
-    </div> -->
     <div class="project-image">
         <div class="flip-card" tabindex="0">
             <div class="flip-card-inner">
@@ -71,8 +68,17 @@ title = "Projects"
 
   <!-- Project 3 – image left, text right -->
   <article class="project-row">
-    <div class="project-image">
-      <img src="/images/fraym-2022-logo-with-name.png" alt="Screenshot of Project 1">
+        <div class="project-image">
+        <div class="flip-card" tabindex="0">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="/images/fraymLogo.jpg" alt="Green Space Accessibility (front)">
+            </div>
+            <div class="flip-card-back">
+                <img src="/images/fraymBarChart.png" alt="Green Space Accessibility (back)">
+            </div>
+            </div>
+        </div>
     </div>
     <div class="project-content">
       <p class="project-label">Dashboard</p>

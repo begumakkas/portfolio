@@ -47,9 +47,9 @@ description = "My portfolio"
     url        = "/projects"
 
     [[menu.main]]
-    identifier = "contact"
-    name       = "Contact"
-    url        = "/contact"
+    identifier = "connect"
+    name       = "Connect"
+    url        = "/connect"
 
 
     # allow rendering of raw html

@@ -104,20 +104,23 @@
   max-width: 420px;
 }
 
-/* Ensure the flip card has a concrete width */
-.flip-card {
-  width: 420px;
-  max-width: 100%;
+/* Use this for wider content format but need to left-align title "Projects" */
+/* .projects-wide{
+  width: min(1000px, 100vw - 3rem);
+  margin-left: 50%;
+  transform: translateX(-50%);
+} */
+
+
+p, li {
+  font-size: 1.1rem;   /* try 1.1rem if you want bigger */
+  line-height: 1.6;
 }
 
-/* Mobile: stack vertically */
-/* @media (max-width: 768px) {
-  .project-row,
-  .project-row--reverse {
-    flex-direction: column;
-  }
 
-  .project-image img {
-    max-width: 100%;
-  }
+/* .post-header {
+  width: min(1000px, 100vw - 3rem);
+  margin: 0 auto;
+  box-sizing: border-box;
 } */
+

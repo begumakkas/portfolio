@@ -73,6 +73,8 @@
   </url><url>
     <loc>//localhost:1313/about/</loc>
   </url><url>
+    <loc>//localhost:1313/connect/</loc>
+  </url><url>
     <loc>//localhost:1313/projects/</loc>
   </url>
 </urlset>
