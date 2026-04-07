@@ -19,7 +19,7 @@
   display: block;
   width: 100%;
   max-width: 420px;
-  border-radius: 16px;
+  /* border-radius: 16px; */
   object-fit: cover;
 }
 
