@@ -62,7 +62,7 @@ title = "Projects"
         <li>The visualization reveals some disparities in the music industry. 
         For example, women are much more often singers but less often songwriters.</li>
       </ul>
-      <p class="project-tech">Python · D3 · JS · HTML · Cloudflare</p>
+      <p class="project-tech">Python · D3 · JS · HTML/CSS · Cloudflare</p>
     </div>
   </article>
 
@@ -95,6 +95,37 @@ title = "Projects"
     </div>
   </article>
 
+  <!-- Project 4 – image right, text left -->
+  <article class="project-row project-row--reverse">
+    <div class="project-image">
+        <div class="flip-card" tabindex="0">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="/images/hw_logo.png" alt="Green Space Accessibility (front)">
+            </div>
+            <div class="flip-card-back">
+                <img src="/images/hw_app.png" alt="Green Space Accessibility (back)">
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-content">
+      <p class="project-label">Dashboard</p>
+      <h3 class="project-title">
+        <a href="https://charting-bars.pages.dev/" target="_blank">
+        Homework Tracker App
+        </a>
+      </h3>
+      <ul class="project-description">
+        <li>Ingests PDF syllabi and extracts structured assignment data such as due dates, priority, 
+        and exam flags into a sortable task dashboard.</li>
+        <li>Built to eliminate the overhead of manually inputting and tracking assignments 
+        across multiple courses.</li>
+      </ul>
+      <p class="project-tech">Ruby on Rails · HTML/CSS · PostgreSQL</p>
+    </div>
+  </article>
+
 </section>
 
 
@@ -110,5 +141,6 @@ title = "Projects"
   <span class="tech"><i class="devicon-r-plain colored"></i><span>R</span></span>
   <span class="tech"><i class="devicon-git-plain colored"></i><span>Git</span></span>
   <span class="tech"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></span>
+  <span class="tech"><i class="devicon-rails-plain colored"></i><span>Ruby on Rails</span></span>
 </div>
 
