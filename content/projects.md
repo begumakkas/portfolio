@@ -112,7 +112,7 @@ title = "Projects"
     <div class="project-content">
       <p class="project-label">Dashboard</p>
       <h3 class="project-title">
-        <a href="https://charting-bars.pages.dev/" target="_blank">
+        <a href="https://github.com/begumakkas/hw-scheduler" target="_blank">
         Homework Tracker App
         </a>
       </h3>
