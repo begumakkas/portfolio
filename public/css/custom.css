@@ -86,11 +86,19 @@
   overflow: hidden;
 }
 
-.flip-card-front img,
+/* .flip-card-front img,
 .flip-card-back img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  display: block;
+} */
+
+.flip-card-front img,
+.flip-card-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* fills the whole box, crops the overflow */
   display: block;
 }
 
